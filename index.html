@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+    <meta name="description" content="Vanessa Bonilla">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="user-scalable=0,width=device-width,initial-scale=1,maximum-scale=1">
+	<title>Team Aventurarc mtb</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!--Barra navegacion-->
+<div class="container">
+	<div class="navbar-collapse collapse ">
+      <img class="headerImg" src="img/head.jpg">
+      <div id="menu">
+			<div class="navbar-header">
+				<button id="showMenu" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+				<ul class="nav navbar-nav">
+					<li><a href="#"><strong>INICIO</strong></a></li>
+			        <li><a href="#"><strong>EVENTOS</strong></a></li>
+			        <li><a href="#"><strong>GALERIA</strong></a></li>
+			        <li><a href="#"><strong>CONTACTO</strong></a></li>
+			        <li><a href="#"><strong>ACERCA DE</strong></a></li>
+				</ul>
+        </div>
+</div>
+<!--Fin barra de navegacion-->
+<br>
+<!--SlideShow-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+      <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <img class="imgSlide" src="img/slide1.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Informacion imagen</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <img class="imgSlide" src="img/slide2.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Informacion imagen</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <img class="imgSlide" src="img/slide3.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Informacion imagen</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+    </div><br>
+<!--Fin SlideShow-->
+
+<!--Seccion-->
+<section>
+	<div class="row">
+	<div class="col-md-6 col-lg-6 img-responsive">
+	<img class="headerImg" src="img/publicidad1.jpg" alt="">
+        <h2>Mas informacion.</h2>
+      </div>
+      <div class="col-md-6 col-lg-6 img-responsive">
+      <img class="headerImg" src="img/publicidad2.png" alt="">
+         <h2>Mas informacion.</h2>
+      </div>
+    </div>
+</section>
+</div>
+<!--Fin Seccion-->
+<!--Footer-->
+
+<!--Fin Footer-->
+<!--Scripts-->
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$('.carousel').carousel({
+			interval: 3000
+		});
+</script>
+</body>
+</html>
